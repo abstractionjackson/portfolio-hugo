@@ -1,0 +1,40 @@
+#+TITLE: Peak Fitness
+#+SITE: https://abstractionjackson.github.io/fitness-tracker-react
+#+CATEGORIES[]: fun
+#+SUMMARY: What's your strongest lift in the gym?
+* Building a Fitness Tracker with React and SQLite WASM
+** Overview
+The Fitness Tracker is a browser-based dashboard designed to help weight-training enthusiasts track their performance, with an emphasis on monitoring Personal Record (PR) weights. The application allows users to log, view, and analyze weightlifting data, providing insights into their progress over time.
+
+** Challenges
+- *Data Persistence in the Browser:* Leveraging SQLite WASM to ensure data is stored and retrieved efficiently without a backend.
+- *Responsive User Interface:* Creating a user-friendly dashboard that works seamlessly across devices.
+- *Scalable Data Structures:* Designing the database schema to support current features and future expansions, such as aliases and movement types.
+
+** Solutions
+- *SQLite WASM Integration:* Utilized SQLite WASM to enable local, in-browser database management for quick and secure data access.
+- *Dynamic React Components:* Built reusable React components to display and interact with weightlifting data efficiently.
+- *React Router:* Implemented React Router for a smooth and intuitive navigation experience.
+
+** Implementation
+1. *Database Design:* Created a `movements` table to track weightlifting data, including:
+   - `id`: Unique identifier for each record.
+   - `name`: Name of the movement (e.g., “Deadlift”).
+   - `weight`: Recorded weight lifted.
+   - `date`: Date of the lift, defaulting to the current date.
+2. *Data Input:* Developed forms to add new movements and log Personal Record performances.
+3. *Data Visualization:* Built a dynamic list to display Personal Records for each movement, with plans for progress charts in future updates.
+4. *Planned Features:* Introduced a roadmap for adding aliases, movement types, and detailed progress tracking.
+
+** Features
+- *Track Personal Records:* View and log PRs for individual movements.
+- *Add New Movements:* Expand the database to include custom exercises.
+- *Future Enhancements:* Support for aliases (e.g., “Military Press” → “Barbell Strict Press”) and movement types (e.g., “dumbbell,” “barbell,” etc.).
+
+** Technologies Used
+- *React:* For building a responsive and interactive user interface.
+- *SQLite WASM:* To enable browser-based, local data storage.
+- *React Router:* For seamless navigation within the application.
+
+** Conclusion
+The Fitness Tracker combines modern web technologies to provide a simple yet powerful tool for weight-training enthusiasts. By focusing on ease of use and personal record tracking, it empowers users to measure their progress and achieve their fitness goals.

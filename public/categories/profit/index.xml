@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Profit on Software Engineering Portfolio</title>
+    <link>http://localhost:1313/porfolio-hugo/categories/profit/</link>
+    <description>Recent content in Profit on Software Engineering Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/porfolio-hugo/categories/profit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alarm Signal Processor</title>
+      <link>http://localhost:1313/porfolio-hugo/project/alarm-signal-processor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/porfolio-hugo/project/alarm-signal-processor/</guid>
+      <description>Cloud-native, event-driven signal processing and media storage for retail clients</description>
+    </item>
+    <item>
+      <title>Golden Harvest</title>
+      <link>http://localhost:1313/porfolio-hugo/project/golden-harvest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/porfolio-hugo/project/golden-harvest/</guid>
+      <description>Contracts management for seed distributors in the argicultural space.</description>
+    </item>
+    <item>
+      <title>Iowa Hospital Covid Tracker</title>
+      <link>http://localhost:1313/porfolio-hugo/project/iowa-hospital-covid-tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/porfolio-hugo/project/iowa-hospital-covid-tracker/</guid>
+      <description>Data visualization for Covid intake in the state of Iowa</description>
+    </item>
+    <item>
+      <title>Waldo</title>
+      <link>http://localhost:1313/porfolio-hugo/project/waldo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/porfolio-hugo/project/waldo/</guid>
+      <description>A 2D map of IoT devices in the warehousing and logistics space.</description>
+    </item>
+  </channel>
+</rss>

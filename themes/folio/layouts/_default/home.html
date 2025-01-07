@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div>
+  <p>
+    San Francisco Software Engineer Jackson Galan builds maintainable,
+    performant web applications for fun, and profit.
+  </p>
+</div>
+<hr />
+<div class="container">
+  <section>
+    <h2>Fun</h2>
+    <ul>
+      {{ range .Site.Taxonomies.categories.fun }}
+      <li>{{ partial "project/preview.html" . }}</li>
+      {{ end }}
+    </ul>
+  </section>
+  <section>
+    <h2>Profit</h2>
+    <ul>
+      {{ range sort .Site.Taxonomies.categories.profit "Params.order" "asc" }}
+      <li>{{ partial "project/preview.html" . }}</li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+    }
+  }
+
+  .container section {
+    flex: 1;
+    margin: 10px;
+  }
+</style>
+{{ end }}

@@ -1,0 +1,39 @@
+{{ $page := . }} {{ $previewImage := $page.Resources.GetMatch "images/preview.*"
+}}
+
+<div class="project-preview">
+  {{ if $previewImage }}
+  <div class="project-thumbnail">
+    <img
+      src="{{ $previewImage.Permalink }}"
+      alt="{{ $page.Title }} thumbnail"
+    />
+  </div>
+  {{ end }}
+  <div class="project-summary">
+    <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+    <p>{{ $page.Summary }}</p>
+  </div>
+</div>
+
+<style>
+  .project-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+  }
+  .project-summary {
+    margin-right: 20px;
+  }
+  .project-thumbnail img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 1rem;
+  }
+  @media (min-width: 768px) {
+    .project-preview {
+      flex-direction: row;
+    }
+  }
+</style>

@@ -1,0 +1,34 @@
+#+TITLE: Alarm Signal Processor
+#+SITE: https://newsroom.adt.com/adt-commercial/adt-partners-dollar-tree-inc-deliver-industry-leading-solutions
+#+CATEGORIES[]: profit
+#+SUMMARY: Cloud-native, event-driven signal processing and media storage for retail clients
+#+ORDER: 2
+* Building the Alarm Signal Processor on Google Cloud
+** Overview
+Developing an alarm signal processor for ADT's extensive commercial security operations was a challenge I tackled head-on. This critical system processes millions of signals daily, ensuring that alerts from various security devices are correctly prioritized and routed. By leveraging Google Cloud’s robust infrastructure, I built a scalable, efficient solution tailored to ADT’s needs.
+
+** Challenges
+- *Scale:* Processing a massive volume of alarm signals from thousands of retail locations, each requiring near-instantaneous response.
+- *Latency:* Signals had to be processed in real-time to ensure rapid responses to potential security threats.
+- *Integration:* The system needed to seamlessly integrate with existing ADT infrastructure and adhere to strict compliance and security standards.
+
+** Solutions
+- *Scalability with Cloud Functions:* Google Cloud Functions allowed for event-driven, scalable processing that adapted dynamically to load fluctuations.
+- *Real-Time Data Pipelines:* Pub/Sub messaging ensured alarm signals were ingested and processed in real time with high reliability.
+- *Load Balancing and Fault Tolerance:* Implementing managed services ensured high availability and reduced the risk of single points of failure.
+
+** Implementation
+1. *Signal Ingestion:* Alarm signals were routed through Google Cloud Pub/Sub for real-time streaming and decoupling of components.
+2. *Processing Logic:* Cloud Functions processed signals to determine their priority, applying rules and heuristics defined in ADT’s policies.
+3. *Routing:* Outputs were sent to notification systems for escalation to relevant stakeholders, including law enforcement and ADT operators.
+4. *Monitoring and Alerts:* Stackdriver (now Cloud Monitoring) provided observability into system performance and health.
+
+** Technologies Used
+- *Google Cloud Pub/Sub:* For real-time, scalable message ingestion.
+- *Google Cloud Functions:* For event-driven processing of alarm signals.
+- *Firestore:* For managing metadata and dynamic rules for signal prioritization.
+- *Cloud Monitoring:* To track system performance and alert for anomalies.
+- *Cloud IAM:* To ensure secure access control and compliance.
+
+** Conclusion
+By harnessing the power of Google Cloud, I developed a reliable, efficient, and scalable alarm signal processor that empowers ADT to deliver unparalleled security services to its commercial clients. This project demonstrated the impact of cloud technologies in solving real-world challenges and reinforced the value of scalable, event-driven architectures.

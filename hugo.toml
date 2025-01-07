@@ -1,0 +1,4 @@
+baseURL = 'https://abstractionjackson.github.io/porfolio-hugo/'
+languageCode = 'en-us'
+title = 'Software Engineering Portfolio'
+theme = 'folio'

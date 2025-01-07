@@ -1,0 +1,38 @@
+#+TITLE: Ex Libris
+#+SITE: https://abstractionjackson.github.io/books-hugo
+#+CATEGORIES[]: fun
+#+SUMMARY: Read any good books, lately?
+
+* Building Ex Libris: A Virtual Bookshelf with Hugo
+** Overview
+Ex Libris is a virtual bookshelf designed to help book lovers track their reading journey. Built as a static website using Hugo, the site allows users to catalog books, manage reading progress, and discover new titles. Ex Libris focuses on providing a visually appealing and easy-to-navigate platform to maintain a personal book collection, whether for tracking books you've read, are currently reading, or plan to read.
+
+** Challenges
+- *Static Site Limitations:* Designing a dynamic user experience within the constraints of a static site generator.
+- *Data Management:* Ensuring books can be added, categorized, and displayed with minimal manual intervention.
+- *Scalability:* Allowing users to grow their virtual bookshelf without performance issues as their collections expand.
+
+** Solutions
+- *Hugo as a Static Site Generator:* Leveraged Hugo’s fast build times to create a performant site that loads instantly, even with large book collections.
+- *Markdown Integration:* Used Markdown for easy content creation, allowing books to be added with simple YAML front matter for easy categorization and metadata.
+- *Custom Shortcodes:* Created custom shortcodes in Hugo to allow books to be displayed with images, descriptions, and additional metadata like author and genre.
+
+** Implementation
+1. *Book Management System:* Designed a YAML-based system within Hugo to manage books, storing details like title, author, genre, and reading status.
+2. *Virtual Bookshelf Display:* Developed a clean, grid-style bookshelf layout to display books in various categories, including “Currently Reading,” “Read,” and “Want to Read.”
+3. *Progress Tracking:* Incorporated progress tracking for books, including start and end dates, as well as a rating system.
+4. *Future Enhancements:* Planned integration with external book databases (like Goodreads) to auto-import book data and sync reading progress.
+
+** Features
+- *Categorize Books:* Organize your books into sections like "Read," "Currently Reading," and "To Read."
+- *Progress Tracking:* Track your reading progress with start/end dates and personal ratings for each book.
+- *Customizable Design:* Hugo themes allow for easy customization of the site’s look and feel, giving users control over how their bookshelf appears.
+- *Search and Filter:* The bookshelf features basic search and filtering functionality to help users quickly find books by title, author, or genre.
+
+** Technologies Used
+- *Hugo:* The static site generator that powers Ex Libris, known for fast site building and performance.
+- *Markdown and YAML:* Used for managing books and metadata, allowing for easy content addition and updates.
+- *Custom Shortcodes:* To display book information, images, and progress tracking directly within pages.
+
+** Conclusion
+Ex Libris serves as an elegant and functional virtual bookshelf, allowing users to keep track of their reading history and goals. By leveraging Hugo’s speed and flexibility, the site offers a simple, static solution for managing books and showcasing personal libraries. Whether you're a casual reader or an avid book collector, Ex Libris is a great tool for organizing your literary journey.

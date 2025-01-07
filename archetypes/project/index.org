@@ -1,0 +1,6 @@
+#+TITLE: {{ replace .File.ContentBaseName "-" " " | title }}
+#+SITE: https://abstractionjackson.github.io/
+#+CATEGORIES[]: fun
+#+SUMMARY: nil
+#+ORDER: 0
+* Overview
