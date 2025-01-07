@@ -1,4 +1,4 @@
-baseURL = 'https://abstractionjackson.github.io/porfolio-hugo/'
+baseURL = 'https://abstractionjackson.com'
 languageCode = 'en-us'
 title = 'Software Engineering Portfolio'
 theme = 'folio'
