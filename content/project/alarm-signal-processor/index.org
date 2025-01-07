@@ -1,8 +1,9 @@
 #+TITLE: Alarm Signal Processor
 #+SITE: https://newsroom.adt.com/adt-commercial/adt-partners-dollar-tree-inc-deliver-industry-leading-solutions
 #+CATEGORIES[]: profit
-#+SUMMARY: Cloud-native, event-driven signal processing and media storage for retail clients
+#+SUMMARY: Cloud-native, event-driven signal processing and media storage for retail clients.
 #+ORDER: 2
+#+DATE: 2022-03-29
 * Building the Alarm Signal Processor on Google Cloud
 ** Overview
 Developing an alarm signal processor for ADT's extensive commercial security operations was a challenge I tackled head-on. This critical system processes millions of signals daily, ensuring that alerts from various security devices are correctly prioritized and routed. By leveraging Google Cloud’s robust infrastructure, I built a scalable, efficient solution tailored to ADT’s needs.

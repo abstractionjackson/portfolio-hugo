@@ -1,0 +1,39 @@
+#+TITLE: Launch Club
+#+SITE: https://launchclubgolf.com/
+#+CATEGORIES[]: profit
+#+SUMMARY:  UX improvement and content refresh for a small business client in the fitness space.
+#+ORDER: 0
+#+DATE: 2025-01-06
+
+* Developing an Engaging Fitness Facility Website: LaunchClub.com
+
+** Overview
+Launch Club is a fitness facility in Minneapolis seeking to improve customer engagement through an updated website. My client needed a refreshed design and user experience for their WordPress site to drive customer adoption and enhance overall usability. The project involved updating content, redesigning pages, and integrating external services for seamless user interaction.
+
+** Challenges
+- The existing WordPress site had outdated content and a cumbersome user experience, leading to reduced customer engagement.
+- The site lacked critical features such as tier-based scheduling and payment integration, essential for managing memberships and reservations.
+- UI components were inconsistent and failed to provide an engaging user experience.
+
+** Solutions
+- Conducted a detailed analysis of the existing site to identify pain points and areas of improvement.
+- Collaborated closely with the client to understand business goals and user requirements.
+- Designed a streamlined interface to ensure intuitive navigation and clear calls to action.
+
+** Implementation
+- Used HTML, CSS, and JavaScript to build and update pages, ensuring responsive design across devices.
+- Integrated the GymMaster scheduling application to handle tier-based reservations and payments, enhancing the customer booking experience.
+- Designed and deployed UI components, including:
+  - Simple banners for announcements and promotions.
+  - Animated media players to showcase video content effectively.
+  - Complex data intake forms for capturing detailed customer information.
+- Thoroughly tested all updates to ensure functionality, usability, and performance before deployment.
+
+** Technologies Used
+- **Frontend Development:** HTML, CSS, JavaScript
+- **Backend and CMS:** WordPress
+- **Integration Services:** GymMaster
+- **Tools:** Figma for wireframing and design, browser developer tools for debugging
+
+** Conclusion
+The updated Launch Club website successfully addressed the client’s goals, providing a refreshed look and improved functionality. Customer feedback highlighted the ease of navigation and enhanced user experience, while the GymMaster integration simplified scheduling and payments. This project demonstrates my ability to redesign and implement web solutions tailored to client needs, driving user engagement and business growth.

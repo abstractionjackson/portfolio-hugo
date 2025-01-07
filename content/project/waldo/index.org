@@ -2,6 +2,7 @@
 #+SITE: https://aws.amazon.com/about-aws/whats-new/2022/11/aws-iot-roborunner-generally-available/
 #+CATEGORIES[]: profit
 #+SUMMARY: A 2D map of IoT devices in the warehousing and logistics space.
+#+DATE: 2022-09-30
 #+ORDER: 1
 * Developing Waldo: A 2D Map Client for AWS IoT RoboRunner
 ** Overview

@@ -2,6 +2,7 @@
 #+SITE: https://abstractionjackson.github.io/books-hugo
 #+CATEGORIES[]: fun
 #+SUMMARY: Read any good books, lately?
+#+DATE: 2024-10-20
 
 * Building Ex Libris: A Virtual Bookshelf with Hugo
 ** Overview

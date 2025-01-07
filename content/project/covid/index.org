@@ -1,8 +1,9 @@
-#+TITLE: Iowa Hospital Covid Tracker
+#+TITLE: Healthcare Data Visualization
 #+SITE: https://cynchealth.org/category/covid-19/
 #+CATEGORIES[]: profit
-#+SUMMARY: Data visualization for Covid intake in the state of Iowa
+#+SUMMARY: Charting Patient and Hospitalization Data during Covid.
 #+ORDER: 4
+#+DATE: 2021-10-01
 * Developing the CyncHealth COVID-19 Tracker
 ** Overview
 The CyncHealth COVID-19 Tracker is a comprehensive platform designed to monitor and report COVID-19 cases, vaccination statuses, and related health metrics across Nebraska. It facilitates real-time data sharing among healthcare providers, public health officials, and the community, enhancing the state's response to the pandemic. :contentReference[oaicite:0]{index=0}

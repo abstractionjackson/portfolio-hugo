@@ -2,6 +2,7 @@
 #+SITE: https://www.goldenharvestseeds.com/
 #+CATEGORIES[]: profit
 #+SUMMARY: Contracts management for seed distributors in the argicultural space.
+#+DATE: 2021-08-25
 #+ORDER: 3
 * Developing the Golden Harvest Seeds Application
 ** Overview
