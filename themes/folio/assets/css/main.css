@@ -22,7 +22,6 @@ body > header {
 footer {
   margin-top: auto;
   padding: 2rem;
-  background-color: #f4f4f4;
 }
 
 ul {
@@ -39,21 +38,11 @@ a:visited {
 .home.container {
   display: flex;
   flex-direction: column;
-  background-color: #f4f4f4;
-}
-
-@media (min-width: 768px) {
-  .home.container {
-    flex-direction: row;
-  }
 }
 
 .home.container section {
   flex: 1;
   margin: 1rem;
-}
-.runner {
-  border-bottom: 1px solid #000;
 }
 .runner > p {
   padding: 2rem;

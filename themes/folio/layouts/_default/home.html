@@ -8,21 +8,84 @@
   </p>
 </div>
 <div class="container home">
-  <section class="category">
-    <h2 class="title" id="fun">FUN</h2>
-    <ul>
-      {{ range .Site.Taxonomies.categories.fun }}
-      <li>{{ partial "project/preview.html" . }}</li>
-      {{ end }}
-    </ul>
-  </section>
-  <section class="category">
-    <h2 class="title" id="profit">Profit</h2>
-    <ul>
-      {{ range sort .Site.Taxonomies.categories.profit "Params.order" "asc" }}
-      <li>{{ partial "project/preview.html" . }}</li>
-      {{ end }}
-    </ul>
+  <div class="tabs">
+    <button class="tab-button active" onclick="showCategory('fun', event)">
+      Fun
+    </button>
+    <button class="tab-button" onclick="showCategory('profit', event)">
+      Profit
+    </button>
+  </div>
+  <section class="categories">
+    <article class="category" id="fun">
+      <ul>
+        {{ range .Site.Taxonomies.categories.fun }}
+        <li>{{ partial "project/preview.html" . }}</li>
+        {{ end }}
+      </ul>
+    </article>
+    <article class="category" id="profit">
+      <ul>
+        {{ range sort .Site.Taxonomies.categories.profit "Params.order" "asc" }}
+        <li>{{ partial "project/preview.html" . }}</li>
+        {{ end }}
+      </ul>
+    </article>
   </section>
 </div>
+<script>
+  function showCategory(category, event) {
+    document.getElementById("fun").style.display = "none";
+    document.getElementById("profit").style.display = "none";
+    document.getElementById(category).style.display = "block";
+
+    var buttons = document.getElementsByClassName("tab-button");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove("active");
+    }
+    event.currentTarget.classList.add("active");
+  }
+</script>
+<style>
+  .tabs {
+    display: flex;
+    border-bottom: 2px solid #000;
+    padding: 0 2rem;
+  }
+  .tab-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    font-family: monospace;
+  }
+  .tab-button:hover,
+  .tab-button:focus,
+  .tab-button:focus-visible {
+    background-color: #ddd;
+    outline: none; /* Remove default outline */
+  }
+  .tab-button.active {
+    background-color: #fff;
+    box-shadow: 4px 0px darkgray;
+    margin-bottom: -2px; /* Overlap the container border */
+  }
+  .category {
+    display: none;
+  }
+  .category:first-of-type {
+    display: block;
+  }
+  article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  article > ul {
+    margin: auto;
+  }
+</style>
 {{ end }}
