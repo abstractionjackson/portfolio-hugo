@@ -6,15 +6,23 @@ body {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  line-height: 1.5;
 }
 
 body {
+  line-height: 1.5;
+}
+
+body > header {
+  height: min-content;
   padding: 2rem;
+  background-color: black;
+  color: #f4f4f4;
 }
 
 footer {
   margin-top: auto;
+  padding: 2rem;
+  background-color: #f4f4f4;
 }
 
 ul {
@@ -25,4 +33,41 @@ ul {
 a,
 a:visited {
   color: initial;
+}
+
+/* Home Page */
+.home.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+
+@media (min-width: 768px) {
+  .home.container {
+    flex-direction: row;
+  }
+}
+
+.home.container section {
+  flex: 1;
+  margin: 1rem;
+}
+.runner {
+  border-bottom: 1px solid #000;
+}
+.runner > p {
+  padding: 2rem;
+}
+section.category > .title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title#fun::after {
+  content: " 🎉";
+}
+
+.title#profit:before,
+.title#profit::after {
+  content: " 💸 ";
 }

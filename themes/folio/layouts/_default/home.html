@@ -1,22 +1,23 @@
 {{ define "main" }}
-<div>
-  <p>
-    San Francisco Software Engineer Jackson Galan builds maintainable,
-    performant web applications for fun, and profit.
+<div class="runner">
+  <p style="max-width: 430px">
+    <i>San Francisco Software Engineer Jackson Galan</i> builds maintainable,
+    performant web <b>apps</b> for fun, and profit. This portfolio descibes
+    them, and provides links to <b>demos</b>, <b>repos</b>, and
+    <b>related content</b>.
   </p>
 </div>
-<hr />
-<div class="container">
-  <section>
-    <h2>Fun</h2>
+<div class="container home">
+  <section class="category">
+    <h2 class="title" id="fun">FUN</h2>
     <ul>
       {{ range .Site.Taxonomies.categories.fun }}
       <li>{{ partial "project/preview.html" . }}</li>
       {{ end }}
     </ul>
   </section>
-  <section>
-    <h2>Profit</h2>
+  <section class="category">
+    <h2 class="title" id="profit">Profit</h2>
     <ul>
       {{ range sort .Site.Taxonomies.categories.profit "Params.order" "asc" }}
       <li>{{ partial "project/preview.html" . }}</li>
@@ -24,21 +25,4 @@
     </ul>
   </section>
 </div>
-<style>
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  @media (min-width: 768px) {
-    .container {
-      flex-direction: row;
-    }
-  }
-
-  .container section {
-    flex: 1;
-    margin: 10px;
-  }
-</style>
 {{ end }}
