@@ -7,6 +7,10 @@
 
 * Developing an Engaging Fitness Facility Website: LaunchClub.com
 
+[[launchclubgolf.com][Visit]]
+
+{{< figure src="images/launchclub_landing.png" caption="A Responsive Image Carrousel at the Launch Club Home Page">}}
+
 ** Overview
 Launch Club is a fitness facility in Minneapolis seeking to improve customer engagement through an updated website. My client needed a refreshed design and user experience for their WordPress site to drive customer adoption and enhance overall usability. The project involved updating content, redesigning pages, and integrating external services for seamless user interaction.
 

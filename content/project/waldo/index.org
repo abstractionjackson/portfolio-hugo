@@ -5,6 +5,10 @@
 #+DATE: 2022-09-30
 #+ORDER: 1
 * Developing Waldo: A 2D Map Client for AWS IoT RoboRunner
+
+[[https://aws.amazon.com/about-aws/whats-new/2022/11/aws-iot-roborunner-generally-available/][Visit]]
+
+{{< figure src="images/robot-map.webp" caption="2D IoT Device Map Prototype" >}}
 ** Overview
 Waldo is a 2D map client application designed to visualize and manage robot fleets using AWS IoT RoboRunner. It provides real-time spatial representations of robotic operations, enabling efficient monitoring and coordination within industrial environments.
 

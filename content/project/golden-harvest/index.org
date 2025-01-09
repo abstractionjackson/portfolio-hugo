@@ -5,6 +5,10 @@
 #+DATE: 2021-08-25
 #+ORDER: 3
 * Developing the Golden Harvest Seeds Application
+
+
+{{< figure src="images/ghx-placeholder.png" caption="Seed and Grain Price Calculator" >}}
+
 ** Overview
 The Golden Harvest Seeds application is a comprehensive digital platform designed to support farmers in maximizing their crop yield and profitability. It offers tools such as personalized seed recommendations, real-time weather updates, and field scouting reports, all accessible via a user-friendly interface. :contentReference[oaicite:0]{index=0}
 

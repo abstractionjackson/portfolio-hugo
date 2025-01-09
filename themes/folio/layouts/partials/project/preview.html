@@ -5,12 +5,12 @@
   <header>
     {{ if $previewImage }}
     <a href="{{ $page.Permalink }}">
-      <div class="project-thumbnail">
+      <figure>
         <img
           src="{{ $previewImage.Permalink }}"
           alt="{{ $page.Title }} thumbnail"
         />
-      </div>
+      </figure>
     </a>
     {{ end }}
   </header>
@@ -34,8 +34,5 @@
       </li>
       {{ end }}
     </ul>
-    <p>
-      <small><pre>{{ $page.Date.Format "January 2, 2006" }}</pre></small>
-    </p>
   </footer>
 </article>
