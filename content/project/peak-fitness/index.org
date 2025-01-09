@@ -1,5 +1,6 @@
 #+TITLE: Peak Fitness
 #+SITE: https://abstractionjackson.github.io/fitness-tracker-react
+#+REPO: https://github.com/abstractionjackson/fitness-tracker-react
 #+CATEGORIES[]: fun
 #+SUMMARY: What's your strongest lift in the gym?
 #+DATE: 2024-12-10
