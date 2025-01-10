@@ -1,7 +1,7 @@
 #+TITLE: Golden Harvest
 #+SITE: https://www.goldenharvestseeds.com/
 #+CATEGORIES[]: profit
-#+SUMMARY: Contracts management for seed distributors in the argicultural space.
+#+SUMMARY: Contracts management for seed distributors in the argicultural space. Custom onboarding flow using magic links and secured via JWT. Native-app feel built on React, Redux, and TailwindCSS.
 #+DATE: 2021-08-25
 #+ORDER: 3
 * Developing the Golden Harvest Seeds Application

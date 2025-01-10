@@ -1,7 +1,7 @@
 #+TITLE: Healthcare Data Visualization
 #+SITE: https://cynchealth.org/category/covid-19/
 #+CATEGORIES[]: profit
-#+SUMMARY: Charting Patient and Hospitalization Data during Covid.
+#+SUMMARY: Charting Patient and Hospitalization Data during Covid. AWS backend, React UI, and custom maps, charts, and tables built on d3.js. Fully interactive, and publication-ready.
 #+ORDER: 4
 #+DATE: 2021-10-01
 * Developing the CyncHealth COVID-19 Tracker

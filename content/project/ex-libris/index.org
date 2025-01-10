@@ -1,7 +1,7 @@
 #+TITLE: Ex Libris
 #+SITE: https://abstractionjackson.github.io/books-hugo
 #+CATEGORIES[]: fun
-#+SUMMARY: Read any good books, lately?
+#+SUMMARY: Read any good books, lately? Ex-Libris provides a simple, clean interface for managing reading lists, and serves as your virtual library online.
 #+DATE: 2024-10-20
 
 * Building Ex Libris: A Virtual Bookshelf with Hugo

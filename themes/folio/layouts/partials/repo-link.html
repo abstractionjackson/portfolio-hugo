@@ -1,0 +1,5 @@
+{{ $icon := resources.GetMatch "icons/github-mark.svg" }} {{ with .url }}
+<a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="repo github">
+  {{ $icon.Content | safeHTML }}
+</a>
+{{ end }}

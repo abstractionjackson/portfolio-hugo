@@ -1,7 +1,7 @@
 #+TITLE: Launch Club
 #+SITE: https://launchclubgolf.com/
 #+CATEGORIES[]: profit
-#+SUMMARY:  UX improvement and content refresh for a small business client in the fitness space.
+#+SUMMARY:  UX improvement and content refresh for a small business client in the fitness space. Recent additions include animated pricing cards, and a robust scheduling integration via GymMaster.
 #+ORDER: 0
 #+DATE: 2025-01-06
 

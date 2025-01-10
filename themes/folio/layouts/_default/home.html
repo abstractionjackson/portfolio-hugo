@@ -33,6 +33,18 @@
   </section>
 </div>
 <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var activeCategory = localStorage.getItem("activeCategory") || "fun";
+    showCategory(activeCategory);
+
+    var buttons = document.getElementsByClassName("tab-button");
+    for (var i = 0; i < buttons.length; i++) {
+      if (buttons[i].getAttribute("onclick").includes(activeCategory)) {
+        buttons[i].classList.add("active");
+      }
+    }
+  });
+
   function showCategory(category, event) {
     document.getElementById("fun").style.display = "none";
     document.getElementById("profit").style.display = "none";
@@ -42,7 +54,11 @@
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].classList.remove("active");
     }
-    event.currentTarget.classList.add("active");
+    if (event) {
+      event.currentTarget.classList.add("active");
+    }
+
+    localStorage.setItem("activeCategory", category);
   }
 </script>
 {{ end }}

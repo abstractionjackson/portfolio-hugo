@@ -23,16 +23,13 @@
     </div>
   </main>
   <footer>
-    <ul>
+    <ul class="links">
       {{ if $page.Params.site }}
-      <li>
-        <a href="{{ $page.Params.site}}">Site</a>
-      </li>
+      <li>{{ partial "site-link.html" $page.Params.site }}</li>
       {{ end }} {{ if $page.Params.repo }}
-      <li>
-        <a href="{{ $page.Params.repo }}">Repo</a>
-      </li>
+      <li>{{ partial "repo-link.html" (dict "url" $page.Params.repo) }}</li>
       {{ end }}
     </ul>
+    <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
   </footer>
 </article>

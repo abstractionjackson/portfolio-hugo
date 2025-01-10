@@ -1,0 +1,4 @@
+{{ $icon := resources.GetMatch "icons/arrow-up-right.svg" }}
+<a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="site">
+  {{$icon.Content | safeHTML }}
+</a>

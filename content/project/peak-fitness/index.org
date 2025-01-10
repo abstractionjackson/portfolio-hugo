@@ -2,7 +2,7 @@
 #+SITE: https://abstractionjackson.github.io/fitness-tracker-react
 #+REPO: https://github.com/abstractionjackson/fitness-tracker-react
 #+CATEGORIES[]: fun
-#+SUMMARY: What's your strongest lift in the gym?
+#+SUMMARY: What's your strongest lift in the gym? The Peak Fitness tracker surfaces your max efforts, so that you can quickly and easily determine your training status.
 #+DATE: 2024-12-10
 * Building a Fitness Tracker with React and SQLite WASM
 ** Overview
