@@ -22,5 +22,11 @@
   {{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title
   site.Title }}{{ end }}
 </title>
+{{ with site.Params.og }}
+<meta property="og:title" content="{{ .title }}" />
+<meta property="og:type" content="{{ .type }}" />
+<meta property="og:url" content="{{ .url }}" />
+<meta property="og:image" content="{{ .image }}" />
+{{ end }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css" />
 {{ partialCached "head/css.html" . }} {{ partialCached "head/js.html" . }}

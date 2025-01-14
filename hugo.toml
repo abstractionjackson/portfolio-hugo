@@ -2,3 +2,10 @@ baseURL = 'https://abstractionjackson.com'
 languageCode = 'en-us'
 title = 'Portfolio'
 theme = 'folio'
+
+[params.og]
+title = 'Portfolio | Abstraction Jackson'
+description = "A collection of software engineering projects by San Francisco Software Engineer Jackson Galan"
+type = 'website'
+url = 'https://abstractionjackson.com'
+image = 'https://abstractionjackson.com/images/og-image.jpg'
