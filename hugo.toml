@@ -1,6 +1,6 @@
 baseURL = 'https://abstractionjackson.com'
 languageCode = 'en-us'
-title = 'Abstraction Jackson'
+title = 'Software Abstractions and Digital Media'
 theme = 'folio'
 
 [params.og]
